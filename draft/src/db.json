@@ -1,0 +1,82 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "front": {
+        "image": "/logo512.png",
+        "question": "What is React???"
+      },
+      "back": {
+        "answer": "React is a JavaScript library for building user interfaces.",
+        "information": "React is a declarative JavaScript library for building user interfaces, employing a component-based architecture and a virtual DOM for efficient updates. It emphasizes a unidirectional data flow, JSX syntax, and supports React Hooks for managing state and side effects."
+      },
+      "lastModified": "2023-12-18T19:35:07.983Z",
+      "status": "Learned"
+    },
+    {
+      "id": 2,
+      "front": {
+        "image": "/java.png",
+        "question": "What is Java?"
+      },
+      "back": {
+        "answer": "Java is a popular programming language.",
+        "information": "Java is a versatile, object-oriented programming language developed by Sun Microsystems, known for its `Write Once, Run Anywhere` principle, allowing Java applications to run on any device with a Java Virtual Machine (JVM). It is widely used for building web applications, mobile apps (Android), enterprise systems, and has a strong ecosystem with extensive libraries and frameworks."
+      },
+      "lastModified": "2023-12-17T09:07:26Z",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 3,
+      "front": {
+        "image": "/python.png",
+        "question": "What is Python??"
+      },
+      "back": {
+        "answer": "Python is a popular high-level programming language.",
+        "information": "Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, and is widely used in web development, data science, artificial intelligence, automation, and more. Python's extensive standard library and large community contribute to its popularity and versatility."
+      },
+      "lastModified": "2023-12-18T09:07:26Z",
+      "status": "Learned"
+    },
+    {
+      "id": 4,
+      "front": {
+        "image": "/js.png",
+        "question": "What is JavaScript?"
+      },
+      "back": {
+        "answer": "JavaScript is a scripting language mainly used for web development.",
+        "information": "JavaScript (JS) is a dynamic, lightweight, and interpreted programming language primarily used for building interactive and dynamic web pages. As a key component of web development alongside HTML and CSS, JavaScript allows for client-side scripting, enabling the creation of responsive and engaging user interfaces. Additionally, with the advent of technologies like Node.js, JavaScript can also be used on the server side, making it a versatile language for full-stack development."
+      },
+      "lastModified": "2023-12-19T09:07:26Z",
+      "status": "Want to Learn"
+    },
+    {
+      "id": 5,
+      "front": {
+        "image": "/html.png",
+        "question": "What is HTML?"
+      },
+      "back": {
+        "answer": "HTML is the standard markup language for creating web pages.",
+        "information": "HTML (Hypertext Markup Language) is the standard markup language used to create and structure content on the World Wide Web. It consists of a set of elements, each represented by tags, which define the structure and semantics of a web document. HTML is essential for building web pages and is often used in conjunction with CSS (Cascading Style Sheets) and JavaScript to create visually appealing and interactive websites."
+      },
+      "lastModified": "2023-12-20T09:07:26Z",
+      "status": "Learned"
+    },
+    {
+      "id": 6,
+      "front": {
+        "image": "/css.jpg",
+        "question": "What is CSS?"
+      },
+      "back": {
+        "answer": "CSS is a style sheet language used for describing the look and formatting of a document written in HTML.",
+        "information": "CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation and formatting of HTML or XML documents. It enables web developers to control the visual aspects of a web page, specifying styles such as layout, colors, fonts, and spacing. CSS is essential for creating visually appealing and responsive web designs, and it works in conjunction with HTML and often JavaScript to enhance the user experience."
+      },
+      "lastModified": "2023-12-21T09:07:26Z",
+      "status": "Want to Learn"
+    }
+  ]
+}
