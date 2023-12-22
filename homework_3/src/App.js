@@ -1,24 +1,14 @@
+import React, { useState } from "react";
+import Home from "./Home";
 import "./App.css";
+import Flashcards from "./Flashcard"; 
+import Contact from "./Contact"; 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default function App() {
+  const [page, setPage] = useState("Home");
 
-export default App;
+  const renderPage = () => {
+    if (page === "Home") return <Home />;
+    if (page === "Flashcards") return <Flashcards />;
+    if (page === "Contact") return <Contact />;
+  };
