@@ -12,3 +12,11 @@ export default function App() {
     if (page === "Flashcards") return <Flashcards />;
     if (page === "Contact") return <Contact />;
   };
+
+  return (
+    <div className="App">
+      <nav>
+        <ul>
+          <li onClick={() => setPage("Home")}>Home</li>
+          <li onClick={() => setPage("Flashcards")}>Flashcards</li>
+          <li onClick={() => setPage("Contact")}>Contact</li>
