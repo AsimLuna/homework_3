@@ -1,27 +1,33 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home";
-import "./App.css";
 import Flashcards from "./Flashcard";
 import Contact from "./Contact";
+import "./App.css";
 
 export default function App() {
-  const [page, setPage] = useState("Home");
-
-  const renderPage = () => {
-    if (page === "Home") return <Home />;
-    if (page === "Flashcards") return <Flashcards />;
-    if (page === "Contact") return <Contact />;
-  };
-
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li onClick={() => setPage("Home")}>Home</li>
-          <li onClick={() => setPage("Flashcards")}>Flashcards</li>
-          <li onClick={() => setPage("Contact")}>Contact</li>
-        </ul>
-      </nav>
-    </div>
+    <Router>
+      <>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/flashcards">Flashcards</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/flashcards" element={<Flashcards />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </>
+    </Router>
   );
 }
