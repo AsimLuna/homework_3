@@ -24,7 +24,7 @@ export default function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
