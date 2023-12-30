@@ -5,7 +5,9 @@ function Project(props) {
     <div className="project-info" id={props.id}>
       <img src={props.img} alt="img" width="300px" />
       <h3 className="project-name">{props.name}</h3>
-      <a href={props.link}>Link to Webpage</a>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
+        Link to Webpage
+      </a>
     </div>
   );
 }

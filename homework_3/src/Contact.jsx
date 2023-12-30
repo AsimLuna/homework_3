@@ -41,6 +41,7 @@ export default function Contact() {
             placeholder="Your Subject"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
+            required
           />
           <br />
           <input
@@ -60,6 +61,7 @@ export default function Contact() {
             placeholder="Your Message"
             value={text}
             onChange={(e) => setText(e.target.value)}
+            required
           />
           <button
             type="submit"

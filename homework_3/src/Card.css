@@ -1,0 +1,39 @@
+.card {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+.card > div {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card > div:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card p {
+  font-size: 1em;
+  color: #333;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
