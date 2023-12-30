@@ -67,5 +67,6 @@ This will start the JSON-Server and serve the flashcard data from db.json at htt
 Usage
 Visit http://localhost:3000 in your web browser to access the Flashcard Application.
 Explore the application, create new cards, edit existing ones, and utilize the various features for effective flashcard management.
-GitHub Page
+GitHub Page:
+https://asimluna.github.io/homework_3/
 For additional information and updates, visit the GitHub page.
