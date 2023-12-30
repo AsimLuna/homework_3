@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/homework_3/static/css/main.dd298d3f.css",
+    "main.js": "/homework_3/static/js/main.0f7f2b8e.js",
+    "static/media/dumm.jpg": "/homework_3/static/media/dumm.b5dd5f0afaa9747987db.jpg",
+    "static/media/portf.jpg": "/homework_3/static/media/portf.37f9618ac10afa3bfcdd.jpg",
+    "static/media/luna.jpg": "/homework_3/static/media/luna.3880d26931717074c0a2.jpg",
+    "static/media/share.png": "/homework_3/static/media/share.8f7deca4e2be5ff91343.png",
+    "index.html": "/homework_3/index.html",
+    "main.dd298d3f.css.map": "/homework_3/static/css/main.dd298d3f.css.map",
+    "main.0f7f2b8e.js.map": "/homework_3/static/js/main.0f7f2b8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd298d3f.css",
+    "static/js/main.0f7f2b8e.js"
+  ]
+}
